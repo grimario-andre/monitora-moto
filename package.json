@@ -1,0 +1,20 @@
+{
+  "name": "monitora-moto",
+  "version": "0.0.1",
+  "description": "Aplicação com foco em monitorar os custos de manutençaõ da moto",
+  "main": "/back-end/src/app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "grimario-andre",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
